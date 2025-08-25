@@ -52,17 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Futuristic neon colors
-				neon: {
-					cyan: 'hsl(var(--neon-cyan))',
-					purple: 'hsl(var(--neon-purple))',
-					green: 'hsl(var(--neon-green))',
-					orange: 'hsl(var(--neon-orange))',
-					red: 'hsl(var(--neon-red))'
-				},
-				glass: {
-					bg: 'hsl(var(--glass-bg))',
-					border: 'hsl(var(--glass-border))'
+				sidebar: {
+					DEFAULT: 'hsl(var(--sidebar-background))',
+					foreground: 'hsl(var(--sidebar-foreground))',
+					primary: 'hsl(var(--sidebar-primary))',
+					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+					accent: 'hsl(var(--sidebar-accent))',
+					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+					border: 'hsl(var(--sidebar-border))',
+					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
 			borderRadius: {
