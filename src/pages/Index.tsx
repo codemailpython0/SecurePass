@@ -1,10 +1,8 @@
 import PasswordChecker from "@/components/PasswordChecker";
 import PasswordGenerator from "@/components/PasswordGenerator";
 import { Shield, Lock, Sparkles } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-secondary to-background"></div>
@@ -57,12 +55,10 @@ const Index = () => {
       <footer className="border-t border-border/20 py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            Built with modern web technologies for maximum security and user experience.
-          </p>
+
+© made by KKB</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
